@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "@jermeo/winston-datadog",
   "description": "Secure TCP transport for Winston and Datadog",
   "author": "jermeo.fr@gmail.com",
