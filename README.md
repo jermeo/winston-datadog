@@ -67,8 +67,8 @@ const options = {
   },
   datadogOptions: {
     level: 'info',
-    host: 'datadog_secure_tcp_endpoint',
-    port: datadog_secure_tcp_port, 
+    host: 'intake.logs.datadoghq.com',
+    port: 10516,
     apiKey : 'DATADOG_API_KEY',
     tags: {
       app: 'my-service',
