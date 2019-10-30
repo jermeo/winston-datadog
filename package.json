@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "name": "@jermeo/winston-datadog",
+  "description": "Secure TCP transport for Winston and Datadog",
+  "author": "jermeo.fr@gmail.com",
+  "homepage": "https://github.com/jermeo/winston-datadog",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jermeo/winston-datadog.git"
+  },
+  "license": "ISC",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "log",
+    "logging",
+    "logs",
+    "sysadmin",
+    "tcp",
+    "tools",
+    "transport",
+    "winston",
+    "datadog",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/jermeo/winston-datadog/issues"
+  },
+  "scripts": {
+    "lint": "standard && echint",
+    "fix": "standard --fix",
+    "pretest": "npm run lint",
+    "test": "tap test",
+    "coverage": "tap test --reporter silent --coverage"
+  },
+  "devDependencies": {
+    "echint": "^4.0.1",
+    "standard": "^10.0.2",
+    "tap": "^12.0.0"
+  },
+  "dependencies": {
+    "json-stringify-safe": "^5.0.1",
+    "winston": "^3.0.0",
+    "winston-transport": "^4.3.0"
+  },
+  "standard": {
+    "ignore": [
+      "**/*.d.ts"
+    ]
+  },
+  "echint": {
+    "ignore": [
+      "**/*.d.ts"
+    ]
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}
